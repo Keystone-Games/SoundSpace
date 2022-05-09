@@ -6,3 +6,35 @@ hxformat.json
 Build/
 Release/
 bin/
+
+# Visual Studio Code
+.vscode/
+
+# Intellij IDEA
+.idea/
+
+# HaxeDevelop
+*.hxproj
+
+# Other
+.DS_Store
+.git/
+.gitignore
+.hg/
+.hgignore
+.hgcheck/
+.svn/
+.svnignore
+.idea/
+.vscode/
+.project
+.settings
+.cproject
+.project.lock.json
+.vscodeignore
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/keybindings.json
+.vscode/snippets
