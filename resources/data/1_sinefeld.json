@@ -1,0 +1,20 @@
+{
+    "info": {
+        "name": "Sinefeld",
+        "bpm": 127,
+        "difficulty": "Easy",
+        "dm": 1,
+        "artist": "SidGames",
+        "mapper": "SidGames"
+    },
+    "level": {
+        "sound": {
+            "start": 1
+        },
+        "chart": [
+            {
+                "time": 1
+            }
+        ]
+    }
+}
