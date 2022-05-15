@@ -16,8 +16,8 @@ class CLevel1 extends FlxState {
 	public static var time:Float = 0;
 	public static var tempTime:Float = 0;
 	public static var beats:Int = 0;
-	public static var bpm:Float = MapDB.Level1.bpm;
-	public static var diff:Float = MapDB.Level1.dm;
+	public static var bpm:Float = MapDB.Level1().info.bpm;
+	public static var diff:Float = MapDB.Level1().info.dm;
 	public static var score:Int = 0;
 
 	public static var start:Bool = false;
@@ -70,7 +70,7 @@ class CLevel1 extends FlxState {
 		add(levelIndicator);
 
 		difficultyIndicator = new FlxText(0, 0, 0,
-			"Difficulty: " + MapDB.Level1.difficulty).setFormat("resources/assets/fonts/monsterrat.ttf", 128, FlxColor.fromString("#ff3f48cc"), CENTER);
+			"Difficulty: " + MapDB.Level1().info.difficulty).setFormat("resources/assets/fonts/monsterrat.ttf", 128, FlxColor.fromString("#ff3f48cc"), CENTER);
 		difficultyIndicator.screenCenter(XY);
 
 		lane1 = new FlxSprite();
